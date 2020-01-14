@@ -1,0 +1,4 @@
+<view>
+<button open-type='getUserInfo' bindgetuserinfo="userLogin">授权登录</button>
+<text>{{nickname}}</text>
+</view>

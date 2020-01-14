@@ -1,0 +1,22 @@
+
+<view class="main">
+    <view class="address-box">
+        <view class="address-manage">
+              <navigator url="/page/component/addAddress/addAddress">新增收货地址</navigator>
+        </view>
+    </view>  
+
+
+    <view class="address-box">
+      <view wx:for="{{addressList}}" class="address-list">
+          {{item.peopleName}}
+          {{item.contactMobile}}
+          {{item.address}}
+      </view>
+    </view>
+
+</view>
+
+
+
+
